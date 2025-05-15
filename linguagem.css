@@ -1,0 +1,99 @@
+body{
+    background: linear-gradient(90deg, #4d1572, #e27cc0);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+  
+
+    }
+ .h1 {
+        color: #fff;
+        font-size: 10PX;
+        padding: 20px 25px 20px 25px;
+        padding-top: 20px 25px 20px 25px;
+        text-align: start;
+    }
+
+ .rodape-topo {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: linear-gradient(90deg, #4d1572, #e27cc0);
+      color: #fff;
+      text-align: center;
+      padding: 15px 20px;
+      box-shadow: 0 8px 10px rgba(17, 11, 17, 0.4);
+      z-index: 999;
+    }
+
+    .rodape-topo .conteudo {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .rodape-topo .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .rodape-topo .links a {
+      margin-left: 20px;
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .rodape-topo .links a:hover {
+      color: #fff;
+    }
+  h1 {
+      font-size: 3em;
+      margin-bottom: 40px;
+      text-shadow: 2px 2px 5px #ffffff;
+    }
+
+    .button-container {
+      display: flex;
+      gap: 50px;
+    }
+
+    .btn {
+      padding: 20px 40px;
+      font-size: 1.5em;
+      font-weight: bold;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .btn-java {
+      background: #f89820;
+      color: #fff;
+      box-shadow: 0 4px 15px rgba(248, 152, 32, 0.5);
+    }
+
+    .btn-python {
+      background: #306998;
+      color: #fff;
+      box-shadow: 0 4px 15px rgba(48, 105, 152, 0.5);
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
